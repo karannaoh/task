@@ -1,0 +1,8 @@
+prefix=/home/naoh/catkin_ws/install
+
+Name: intern_task
+Description: Description of intern_task
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/naoh/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,4 @@
+<launch>
+<node pkg="intern_task" name="bot1" type="bot1.cDomino'spp">
+
+</launch>

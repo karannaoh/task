@@ -1,0 +1,8 @@
+<launch>
+ <node name="bot1" pkg="intern_task" type="bot1" />
+<node name="bot2" pkg="intern_task" type="bot2" />
+<node name="bot3" pkg="intern_task" type="bot3" />
+<node name="bot4" pkg="intern_task" type="bot4" />
+<node name="server" pkg="intern_task" type="server" output="screen" />
+
+</launch>
