@@ -17,12 +17,12 @@ struct bot_info {
 
 bot_info bot;
 void initialvals() {
-  bot.bot_id=1;
-  bot.location_x=5;
-  bot.location_y=-5;
-  bot.velocityangle=0;
-  bot.velocity=1;
-  bot.change_direction_counter=0;
+  bot.bot_id = 1;
+  bot.location_x = 5;
+  bot.location_y = -5;
+  bot.velocityangle = 0;
+  bot.velocity = 1;
+  bot.change_direction_counter = 0;
 }
 
 float random_sd() {
