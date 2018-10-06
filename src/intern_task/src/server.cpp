@@ -26,11 +26,11 @@ void chatterCallback(const std_msgs::String::ConstPtr& msg);
 void init(){
 for (int i = 1; i < 5; i++) {
 
-  bots[i].run_status=1;
-  bots[i].onesecondcounterbot=0;
-  bots[i].printcount=0;
-  bots[i].location_x=8178434;
-  bots[i].location_y=8178434;
+  bots[i].run_status = 1;
+  bots[i].onesecondcounterbot = 0;
+  bots[i].printcount = 0;
+  bots[i].location_x = 8178434;
+  bots[i].location_y = 8178434;
 }
 }
 
@@ -130,7 +130,6 @@ if (bots[1].location_y !=8178434 && bots[2].location_y != 8178434 && bots[3].loc
 
 
       if (bots[i].location_x<1 || bots[i].location_x>29 || bots[i].location_y>-1 || bots[i].location_y<-29) {
-        // ROS_INFO("%d,%d,%d,%d",(bots[i].location_x<1),(bots[i].location_x>29),(bots[i].location_y>-1),(bots[i].location_y<-29));
         std_msgs::String msg;
         std::stringstream ss;
         ss << "change_direction" << " " << i;
@@ -148,3 +147,4 @@ if (bots[1].location_y !=8178434 && bots[2].location_y != 8178434 && bots[3].loc
 z++;
 bots[bot_id].printcount++;
 }
+
